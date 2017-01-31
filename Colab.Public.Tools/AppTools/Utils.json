@@ -1,0 +1,14 @@
+{
+    "Html": "/co-common/utils.html",
+
+    "PersistantApp": { },
+    "Modals": [ { } ],
+    "UserMessage": {
+      "Message": "",
+      "Type": "",
+      "Show$": false
+    },
+    "Command$": "",
+    "Ping$": 0,
+    "Title": ""
+}

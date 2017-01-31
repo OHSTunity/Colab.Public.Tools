@@ -1,0 +1,6 @@
+{
+  "Html": "",
+  "Name": "",
+  "Action": "",
+  "$Action": { "bind": "ActionCB" }
+}
