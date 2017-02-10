@@ -43,10 +43,18 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>sys\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="SocietyObjects.Concepts.Ring1, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
-    <Reference Include="SocietyObjects.Concepts.Ring2, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
-    <Reference Include="SocietyObjects.Concepts.Ring3, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
-    <Reference Include="SocietyObjects.Concepts.Ring4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="SocietyObjects.Concepts.Ring1, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SocietyObjects.Concepts.Ring2, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SocietyObjects.Concepts.Ring3, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SocietyObjects.Concepts.Ring4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
