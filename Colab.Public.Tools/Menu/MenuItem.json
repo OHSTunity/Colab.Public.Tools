@@ -1,0 +1,14 @@
+{
+  "Id": "",
+  "Icon": "",
+  "HexColor": "",
+  "Label": "",
+  "Depth": 0,
+  "Url": "",
+  "AppName": "",
+  "Morph$": 0,
+  "Opened$": false,
+  "HasChildren": false,
+  "$HasChildren": { "Bind": "HaschildrenCB" },
+  "Children": [ { } ]
+}

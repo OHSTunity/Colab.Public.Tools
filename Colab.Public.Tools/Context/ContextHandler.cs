@@ -92,6 +92,18 @@ namespace Colab.Public
             UriMapping.Map(uri + "@w", UriMapping.MappingUriPrefix + "/oncontextselected/@w");
         }
 
-     
+        /// <summary>
+        /// The given context has changed ObjectState
+        /// </summary>
+        /// <param name="callback"></param>
+        public static void OnContextObjectStateChange(Action<Something> callback)
+        {
+            ColabX.SubscribeMessage(ColabX.ActivityStateChange, (String id) =>
+                {
+                    callback(DbHelper.FromID(DbHelper.Base64ForUrlDecode(id)) as Something);
+                });
+        }
+
+
     }
 }
